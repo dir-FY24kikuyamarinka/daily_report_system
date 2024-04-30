@@ -1,7 +1,5 @@
 package services;
 
-package services;
-
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -210,7 +208,6 @@ public class EmployeeService extends ServiceBase {
             EmployeeView ev = findOne(code, plainPass, pepper);
 
             if (ev != null && ev.getId() != null) {
-
                 //データが取得できた場合、認証成功
                 isValidEmployee = true;
             }

@@ -1,7 +1,5 @@
 package services;
 
-package services;
-
 import javax.persistence.EntityManager;
 
 import utils.DBUtil;
